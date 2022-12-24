@@ -1,0 +1,63 @@
+[
+
+    {
+
+        "name": "Modifier",
+
+        "movementType": "Air",
+
+        "uniques": [
+
+            "Cannot attack",
+
+            "Uncapturable",
+
+            "Unable to capture cities",
+
+            "No Sight",
+
+            "Invisible to others"
+
+        ]
+
+    },
+
+    {
+
+        "name": "Sandboxer",
+
+        "movementType": "Land",
+
+        "uniques": [
+
+            "Can move immediately once bought",
+
+            "Can pass through impassable tiles",
+
+            "Ignores Zone of Control",
+
+            "May enter foreign tiles without open borders",
+
+            "All tiles cost 1 movement",
+
+            "[1] Movement point cost to disembark",
+
+            "[1] Movement point cost to embark",
+
+            "Defense bonus when embarked",
+
+            "May attack when embarked",
+
+            "Eliminates combat penalty for attacking across a coast",
+
+            "Eliminates combat penalty for attacking over a river",
+
+            "Cannot be intercepted",
+
+            "Invisible to others"
+
+        ]
+
+    }
+
+]
