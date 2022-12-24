@@ -1,0 +1,648 @@
+[
+    // 模式开关
+    {
+        "name": "Sandbox Mode Key",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Can only be built [in capital]",
+            "<in cities without a [Sandbox Mode Admission]> Only available"
+        ]
+    },
+    {
+        "name": "Sandbox Mode Admission",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Can only be built [in capital]",
+            "<in cities with a [Sandbox Mode Key]> Only available",
+            "Destroyed when the city is captured",
+            "<in cities without a [Sandbox Mode Key]> Provides [1024] [Admission]"
+        ]
+    },
+    {
+        "name": "Sandbox Entity Admission",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "Can only be built [in capital]",
+            "<in cities with a [Sandbox Mode Key]> Only available",
+            "Destroyed when the city is captured"
+        ]
+    },
+    
+    
+    
+    // 单城产出控制
+    // 单城回合金控制
+    {
+        "name": "No Money",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-100]% [Gold] [in this city]"
+        ]
+    },
+    {
+        "name": "0.01x Money",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-99]% [Gold] [in this city]"
+        ]
+    },
+    {
+        "name": "0.1x Money",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-90]% [Gold] [in this city]"
+        ]
+    },
+    {
+        "name": "10x Money",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[1000]% [Gold] [in this city]"
+        ]
+    },
+    {
+        "name": "100x Money",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10000]% [Gold] [in this city]"
+        ]
+    },
+    {
+        "name": "1000x Money",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100000]% [Gold] [in this city]"
+        ]
+    },
+    
+    // 单城产能控制
+    {
+        "name": "No Production",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-100]% [Production] [in this city]"
+        ]
+    },
+    {
+        "name": "0.01x Production",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-99]% [Production] [in this city]"
+        ]
+    },
+    {
+        "name": "0.1x Production",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-90]% [Production] [in this city]"
+        ]
+    },
+    {
+        "name": "10x Production",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[1000]% [Production] [in this city]"
+        ]
+    },
+    {
+        "name": "100x Production",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10000]% [Production] [in this city]"
+        ]
+    },
+    {
+        "name": "1000x Production",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100000]% [Production] [in this city]"
+        ]
+    },
+    
+    // 单城食物控制
+    {
+        "name": "No Food",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-100]% [Food] [in this city]"
+        ]
+    },
+    {
+        "name": "0.01x Food",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-99]% [Food] [in this city]"
+        ]
+    },
+    {
+        "name": "0.1x Food",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-90]% [Food] [in this city]"
+        ]
+    },
+    {
+        "name": "10x Food",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[1000]% [Food] [in this city]"
+        ]
+    },
+    {
+        "name": "100x Food",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10000]% [Food] [in this city]"
+        ]
+    },
+    {
+        "name": "1000x Food",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100000]% [Food] [in this city]"
+        ]
+    },
+    
+    // 单城科研控制
+    {
+        "name": "No Science",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-100]% [Science] [in this city]"
+        ]
+    },
+    {
+        "name": "0.01x Science",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-99]% [Science] [in this city]"
+        ]
+    },
+    {
+        "name": "0.1x Science",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-90]% [Science] [in this city]"
+        ]
+    },
+    {
+        "name": "10x Science",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[1000]% [Science] [in this city]"
+        ]
+    },
+    {
+        "name": "100x Science",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10000]% [Science] [in this city]"
+        ]
+    },
+    {
+        "name": "1000x Science",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100000]% [Science] [in this city]"
+        ]
+    },
+    
+    // 单城文化控制
+    {
+        "name": "No Culture",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-100]% [Culture] [in this city]"
+        ]
+    },
+    {
+        "name": "0.01x Culture",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-99]% [Culture] [in this city]"
+        ]
+    },
+    {
+        "name": "0.1x Culture",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-90]% [Culture] [in this city]"
+        ]
+    },
+    {
+        "name": "10x Culture",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[1000]% [Culture] [in this city]"
+        ]
+    },
+    {
+        "name": "100x Culture",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10000]% [Culture] [in this city]"
+        ]
+    },
+    {
+        "name": "1000x Culture",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100000]% [Culture] [in this city]"
+        ]
+    },
+    
+    // 单城宗教控制
+    {
+        "name": "No Faith",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-100]% [Faith] [in this city]"
+        ]
+    },
+    {
+        "name": "0.01x Faith",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-99]% [Faith] [in this city]"
+        ]
+    },
+    {
+        "name": "0.1x Faith",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-90]% [Faith] [in this city]"
+        ]
+    },
+    {
+        "name": "10x Faith",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[1000]% [Faith] [in this city]"
+        ]
+    },
+    {
+        "name": "100x Faith",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10000]% [Faith] [in this city]"
+        ]
+    },
+    {
+        "name": "1000x Faith",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100000]% [Faith] [in this city]"
+        ]
+    },
+    
+    // 单城快乐控制
+    {
+        "name": "No Happiness",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-100]% [Happiness] [in this city]"
+        ]
+    },
+    {
+        "name": "0.01x Happiness",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-99]% [Happiness] [in this city]"
+        ]
+    },
+    {
+        "name": "0.1x Happiness",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-90]% [Happiness] [in this city]"
+        ]
+    },
+    {
+        "name": "10x Happiness",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[1000]% [Happiness] [in this city]"
+        ]
+    },
+    {
+        "name": "100x Happiness",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10000]% [Happiness] [in this city]"
+        ]
+    },
+    {
+        "name": "1000x Happiness",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100000]% [Happiness] [in this city]"
+        ]
+    },
+    
+    
+    // 全国产出控制
+    // 全国回合金控制
+    
+    // 全国产能控制
+    
+    // 全国食物控制
+    
+    // 全国科研控制
+    
+    // 全国文化控制
+    
+    // 全国宗教控制
+    
+    // 全国快乐控制
+    
+    
+    // 补给控制
+    {
+        "name": "-50 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-50] Unit Supply"
+        ]
+    },
+    {
+        "name": "-20 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-20] Unit Supply"
+        ]
+    },
+    {
+        "name": "-10 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-10] Unit Supply"
+        ]
+    },
+    {
+        "name": "-5 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[-5] Unit Supply"
+        ]
+    },
+    {
+        "name": "+5 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[5] Unit Supply"
+        ]
+    },
+    {
+        "name": "+10 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[10] Unit Supply"
+        ]
+    },
+    {
+        "name": "+20 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[20] Unit Supply"
+        ]
+    },
+    {
+        "name": "+50 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[50] Unit Supply"
+        ]
+    },
+    {
+        "name": "+100 Supply",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "[100] Unit Supply"
+        ]
+    },
+    
+    // 触发胜利
+    {
+        "name": "Trigger Victory",
+        "cost": 1000,
+        "hurryCostModifier": 0,
+        "maintenance": 0,
+        "uniques": [
+            "Consumes [1] [Admission]",
+            "Provides [1] [Admission]",
+            "Triggers victory"
+        ]
+    }
+]
