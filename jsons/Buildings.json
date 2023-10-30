@@ -19,7 +19,7 @@
             "Can only be built [in capital]",
             "<in cities with a [Sandbox Mode Key]> Only available",
             "Destroyed when the city is captured",
-            "<in cities without a [Sandbox Mode Key]> Provides [1024] [Admission]"
+            "Provides [1024] [Admission] <in cities without a [Sandbox Mode Key]>"
         ]
     },
     {
